@@ -709,7 +709,7 @@ nav {
 	align-content: center;
 	padding: 0;
 	margin: 0;
-	margin-top: -.5%;
+	margin-top: -.25%;
 }
 
 .collapsible h1 {
@@ -773,7 +773,7 @@ nav {
 #forms-apply-info {
 	background-color: #fff;
 	width: 100%;
-	height: 50vw;
+	height: 45vw;
   margin-top: 12%;
   padding-top: 5%;
   font-size: 1.7vw;
@@ -821,115 +821,84 @@ nav {
 
 .form {
 	width: 100%;
-	height: 120vw;
+	height: 100%;
 	background-color: #626363;
-	align-items: left;
+	padding-top: 2%;
+	padding-bottom: 5%;
 }
 
 .form p {
-	font-size: 1.2vw;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.3vw;
+	color: #fff;
 }
 
-.text-name {
-	width: 33vw;
-  height: 3.5vw;
-  box-sizing: border-box;
-  border:  solid #ecedee;
-  border-radius: .25vw;
-  font-size: 1vw;
+.text-1 {
+    width: 100%;
+    padding: 8px 5px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2em;
 }
-
-#name {
-	float: left;
-	margin-left: 13%;
-	padding-right: 15%;
-	padding-bottom: 2%;
-}
-
-#name p {
-	float: left;
-	margin-left: 5%;
-}
-
-.side-by-side {
-	margin-left: 1%;
-	margin-bottom: 2%;
-}
-
-.side-by-side div {
-  display: inline-block;
-}
-
-.side-by-side p {
-	float: left;
-	margin-left: 5%;
-}
-
-#choice {
-	float: left;
-	margin-left: 15%;
-}
-
-#choice p {
-	margin-right: 60%;
-}
-
-.neighbors {
-  width: 33vw;
-  height: 3.5vw;
-  box-sizing: border-box;
-  border:  solid #ecedee;
-  border-radius: .25vw;
-  font-size: 1vw;
-}
-
 .text-2 {
-  width: 70vw;
-  height: 4vw;
-  box-sizing: border-box;
-  border: .12vw solid #ecedee;
-  border-radius: .25vw;
-  font-size: 1vw;
+    width: 220px;
+    padding: 8px 5px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2em;
 }
 
 select {
-  width: 35vw;
-  border: none;
-  border-radius: .25vw;
-  background-color: #ecedee;
-  font-size: 1.3vw;
+    width: 350px;
+    padding: 50px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 1.2em;
+    background-color: #ecedee;
 }
 
 textarea {
-  width: 70%;
-  height: 10%;
-  margin-top: 5%;
-  box-sizing: border-box;
-  border: .12vw solid #ecedee;
-  border-radius: .25vw;
-  resize: none;
-  font-size: 1vw;
+    width: 80%;
+    height: 150px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 1.2em;
 }
 
-button {
-	width: 10vw;
-	height: 3vw;
-	margin: 5% 0 0 15%;
-	float: left;
-	color: #fff;
-	background-color: #d12229;
-	border: #d12229;
-	border-radius: 2vw;
-	font-size: 1.5vw;
-	font-family: "Raleway", sans-serif;
-	cursor: pointer;
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #d12229;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 2%;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    border: #d12229;
+    border-radius: 2vw;
+    width: 10vw;
+    font-size: 1.2vw;
+    font-family: "Raleway", sans-serif;
+}
+
+.side-by-side div {
+	width: 40%;
+   display: inline-block;
 }
 
 /*footer*/
 
 .footer-bar {
 	padding: 2% 0 2% 0;
-	margin-top: -.5%;
+	margin-top: -.25%;
 	width: 100%;
 	background-color: #000;
 	height: 7vw;

@@ -29,7 +29,6 @@
 		<div class="content">
 
 			<div class="container">
-			<!-- <form action="send_mail.php" method="post"> -->
 		  <div id="forms-apply-info">
         	<p id="stuff">We offer rolling admissions for applications that are submitted before the Priority Deadline. All<br> other applicants will receive their admission decision according to the schedule below. <p id="stuff">Tuition: $2,500. Includes books.</p>
 
@@ -71,91 +70,71 @@
 
 			<div class="form">
 				<form action="send_mail.php" method="post">
-                <div id="name">
-                    <p>Name:</p>
-                    <input class="text-name" type="text" name="Name" required>
-                </div>
+                <p>Name:</p>
+                <input class="text-2" type="text" name="Name" required>
             <div class="side-by-side">
                 <div>
                     <p>Email:</p>
-                    <input class="neighbors" type="text" name="Email" required>
+                    <input class="text-1" type="text" name="Email" required>
                 </div>
                 <div>
                     <p>Cell Phone:</p>
-                    <input class="neighbors" type="text" name="Phone" required>
+                    <input class="text-1" type="text" name="Phone" required>
                 </div>
             </div>
-
-            <div id="choice">
-                <p>Session choice:</p>
-                <select>
-                    <option value="blank" required>Select one</option>
-                    <option value="choice1">September 4 - October 14</option>
-                    <option value="choice2">January 8 - February 23</option>
-                </select>
-            </div>
-
-            <div id="big-box">
+            <p>Session choice:</p>
+            <select>
+              <option value="blank">Select one</option>
+                <option value="choice1">September 4 - October 14</option>
+              <option value="choice2">January 8 - February 23</option>
+            </select>
                 <p>Tell us about you!</p>
                 <textarea></textarea>
-            </div>
-
             <div class="side-by-side">
                 <div>
                     <p>LinkedIn Profile:</p>
-                    <input class="neighbors" type="text" name="Linkedin" required>
+                    <input class="text-1" type="text" name="Linkedin" required>
                 </div>
                 <div>
                     <p>Links to your work:</p>
-                    <input class="neighbors" type="text" name="Links" required>
+                    <input class="text-1" type="text" name="Work" required>
                 </div>
             </div>
             <div class="side-by-side">
                 <div>
                     <p>Current job title:</p>
-                    <input class="neighbors" type="text" name="Job" required>
+                    <input class="text-1" type="text" name="Job" required>
                 </div>
                 <div>
                     <p>Company/Organization:</p>
-                    <input class="neighbors" type="text" name="Company" required>
+                    <input class="text-1" type="text" name="Company" required>
                 </div>
             </div>
-            <div id="how">
                 <p>How did you hear about us?</p>
-                <input class="text-2" type="text" name="How" required>
-            </div>
-            <div>
-            <div id="big-box">
+                <input class="text-2" type="text" name="How?" required>
                 <p>What goals do you have for yourself?<br>How will ABLE/ISD help you?</p>
                 <textarea></textarea>
-            </div>
-            <div id="big-box">
                 <p>What life experiences are you bringing to the table?<br>What do you have to give to your fellow students?</p>
                 <textarea></textarea>
-            </div>
-            <div id="big-box">
                 <p>What would you like us to know about you?</p>
                 <textarea></textarea>
-            <div id="how">
                 <p>Are you ready to change the way we teach online?</p>
-                <input class="text-2" type="text" placeholder="Yes!" name="Ready" required><br>
-            <div>
-                <button>Submit</button>
-            </div>
-    	</form>
+                <input class="text-2" type="text" name="Ready" placeholder="Yes!" required><br>
+                <input type="submit" value="Submit">
+    </form>
     </div>
 
 		</div>
 	</div>
 
-		<!-- <footer>
+		<footer>
 			<div class="footer-bar">
 				<a href="about.html">More Information</a>
 				<a href="form_page.html">Apply Now</a>
 				<a href="#">hello@ableisd.com</a>
 				<p>Copyright 2017 Kontegrys, LLC</p>
 			</div>
-		</footer> -->
+		</footer>
 
 	</body>
 </html>
