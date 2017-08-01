@@ -383,7 +383,7 @@ nav {
 .popup .popuptext {
     visibility: hidden;
     width: 400px;
-    background-color: #ffffff;
+    background-color: #adb2b8;
     color: black;
     text-align: left;
     border-radius: 6px;
@@ -434,6 +434,7 @@ nav {
 	grid-template-columns: repeat(3,1fr);
 	grid-gap:10px;
 	margin-top:400px;
+	background-color: #ecedee;
 }
 
 #image1 .text {
@@ -524,15 +525,9 @@ visibility:visible;
 
 .image {
 	max-height:150px;
-
-}
-#hovers {
-	position: absolute;
+	margin-top:35px;
 }
 
-#who {
-
-}
 
 #network {
 	width: 300px;
@@ -594,11 +589,10 @@ visibility:visible;
 }
 
 #details {
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.3);
 	width: 100%;
 	height: 70vw;
-	margin-top: 50%;
-	padding-top: 5%;
+	/*margin-top: 50%;*/
 }
 
 #details h1 {
@@ -607,7 +601,7 @@ visibility:visible;
 	font-size: 3.5vw;
 	font-family: "Spectral", serif;
 	padding-top: 2%;
-	margin-top: 15%;
+	margin-top: 15px;
 }
 
 #details h2 {
