@@ -150,7 +150,7 @@ nav {
 	font-weight: lighter;
 	font-size: 3vw;
 	padding-top: 2%;
-	font-family: "Spectral", serif; 
+	font-family: "Spectral", serif;
 }
 
 #what h1 strong {
@@ -231,7 +231,7 @@ nav {
 	width: 100%;
 	height: 36vw;
 	margin-top: 94%;
-	padding-top: 5%; 
+	padding-top: 5%;
 	align-content: center;
 }
 
@@ -239,7 +239,7 @@ nav {
 	float: left;
 	padding-left: 12%;
 	font-size: 1.4vw;
-	font-family: "Raleway", sans-serif; 
+	font-family: "Raleway", sans-serif;
 	text-align: left;
 }
 
@@ -350,6 +350,11 @@ nav {
 	/*z-index: 1;*/
 }
 
+#who {
+	color:black
+}
+
+
 #clicks {
 	margin: 0 0 0 5%;
 	padding-top: 50%;
@@ -367,12 +372,161 @@ nav {
 
 /*pop-up boxes*/
 
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 3;
+    bottom:50%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#pop-up {
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:10px;
+	margin-top:400px;
+}
+
+#image1 .text {
+position:relative;
+bottom:50px;
+left:0px;
+visibility:hidden;
+margin-top:50px;
+max-height: 200px;
+}
+
+#image1:hover .text {
+visibility:visible;
+-webkit-animation: fadeIn 1s;
+}
+
+
+#image2 .text {
+position:relative;
+bottom:50px;
+left:0px;
+visibility:hidden;
+margin-top:50px;
+max-height: 200px;
+}
+
+#image2:hover .text {
+visibility:visible;
+-webkit-animation: fadeIn 1s;
+}
+
+#image3 .text {
+position:relative;
+bottom:50px;
+left:0px;
+visibility:hidden;
+margin-top:50px;
+max-height: 200px;
+}
+
+#image3:hover .text {
+visibility:visible;
+-webkit-animation: fadeIn 1s;
+}
+
+#image4 .text {
+position:relative;
+bottom:50px;
+left:0px;
+visibility:hidden;
+margin-top:50px;
+max-height: 200px;
+}
+
+#image4:hover .text {
+visibility:visible;
+-webkit-animation: fadeIn 1s;
+}
+
+#image5 .text {
+position:relative;
+bottom:50px;
+left:0px;
+visibility:hidden;
+margin-top:50px;
+max-height: 200px;
+}
+
+#image5:hover .text {
+visibility:visible;
+-webkit-animation: fadeIn 1s;
+}
+
+#image6 .text {
+position:relative;
+bottom:50px;
+left:0px;
+visibility:hidden;
+margin-top:50px;
+max-height: 200px;
+}
+
+#image6:hover .text {
+visibility:visible;
+-webkit-animation: fadeIn 1s;
+}
+
+
+/*.image {
+	max-height:200px;
+
+}*/
 #hovers {
 	position: absolute;
 }
 
 #who {
-	
+
 }
 
 #network {
@@ -387,10 +541,7 @@ nav {
 	opacity: 0;
 }
 
-#case:hover #who {
-	opacity: 1;
-	transition-duration: .30s;
-}
+<
 
 #network {
 	opacity: 0;
@@ -636,7 +787,7 @@ nav {
 #red_faq p {
 	font-size: 3.5vw;
 	font-family: "Spectral", serif;
-	color: #fff; 
+	color: #fff;
 	float: right;
 	padding: 20% 5% 0 0;
 }
@@ -747,7 +898,7 @@ nav {
 	padding-top: 13%;
 }
 
-.form { 
+.form {
 	display: inline-block;
 	width: 100%;
 	height: 115vw;

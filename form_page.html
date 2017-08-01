@@ -18,7 +18,7 @@
 
 		<nav>
 			<div class="nav-bar">
-				<img id="logo" src="assets/images/Logo.png">
+				<img id="logo" src="assets/images/Logo.png" href="index.html">
 				<a class="active" href="form_page.html">Apply</a>
 				<a href="FAQ.html">FAQ</a>
 				<a href="contact.html">Contact</a>
@@ -29,10 +29,10 @@
 		<div class="content">
 
 			<div class="container">
-
+				<form action="send_mail.php" method="post">
 				<div id="forms-apply-info">
         	<p>We offer rolling admissions for applications that are submitted before the Priority Deadline. All<br> other applicants will receive their admission decision according to the schedule below. <p>Tuition: $2,500. Includes books.</p>
-          
+
           <h2>Sessions and Deadlines:</h2>
 
         <div id="fall">
@@ -43,7 +43,7 @@
             Regular Registration<br>
             Deadline: August 1<br>
             Admission Decisions released: August 7<br>
-            Tuition Deadline: August 15 
+            Tuition Deadline: August 15
             <br>
         </div>
         <div id="spring">
@@ -57,19 +57,18 @@
             Tuition Deadline: December 15</p>
             <br>
         </div>
-			
+
 
       <div id="last-paragraph-form">
         <p>ABLE/ISD is a serious commitment. It's not for everyone, so we ask you to consider carefully<br> whether you think this workshop is right for you. If you've made it this far and still want to be a<br> part of our hands-on community, we invite you to apply below.</p>
       </div>
       </div>
-
       <div id="ready">
 				<p>Ready to get Started?</p>
 			</div>
 
 			<div class="form">
-				<form action="mailto: spgonza@live.com" method="post">
+				<form action="send_mail.php" method="post">
                 <p>Name:</p>
                 <input class="text-2" type="text" name="" required>
             <div class="side-by-side">
@@ -119,8 +118,7 @@
                 <p>What would you like us to know about you?</p>
                 <textarea></textarea>
                 <p>Are you ready to change the way we teach online?</p>
-                <input class="text-2" type="text" name="" placeholder="Yes!" required><br>
-                <input href= "mailto: spgonza@live.com" type="submit" name="">
+                <input class="text-2" type="submit" value="Submit" placeholder="Yes!" required><br>
     			</form>
     		</div>
 

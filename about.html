@@ -8,6 +8,13 @@
 		<link rel="stylesheet" href="assets/css/main.css"/>
 
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Spectral" rel="stylesheet"/>
+		<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
 
 	</head>
 
@@ -28,7 +35,7 @@
 			<div class="container">
 				<div id="about">
 					<h1>About the program</h1>
-				
+
 					<div id="old_new">
 						<h2>The Old Model is Failing</h2>
 						<h2>What we do differently</h2>
@@ -41,34 +48,52 @@
 						<h1>Our Approach</h1>
 						<p>No proprietary materials, no grades, and no lectures, our strategy is simple. We<br> provide you with the resources you need to complete a project. Sometimes you will<br> work with a group, and sometimes on your own. Your instructor, mentors, and fellow<br> students will be there to help, motivate, and give feedback. Together, you’ll create<br> something you would make in a corporate environment.</p>
 				</div>
-
 						<div id=pop-up>
-
-	            <div id="about-pics">
-	                <div id="images">
-	                    <img id="case" src="assets/images/briefcase.png">
-	                    <img id="earth" src="assets/images/earth.png">
-	                    <img id="books" src="assets/images/books.png">
-	                    <img id="file" src="assets/images/file-text2.png">
-	                    <img id="library" src="assets/images/library.png">
-	                    <img id="grades" src="assets/images/pen.png">
-	                </div>
-	                 
+									<div id="image1" class="popup" onclick="myFunction()">
+										<img id="image" src="assets/images/briefcase.png" href="#who">
+										<h2 class="text">Who it's for</h2>
+										<span class="popuptext" id="myPopup">
+											<p>We've kept the working professional in mind, and have designed this<br> course to be within reach of those that already have a busy schedule. That<br> said, this course is no walk-in-the-park, and a serious time commitment is<br> expected. But if you're looking to build practical skills in the world of<br> education, then look no further than ABLE/ISD.</p>
+										</span>
+									</div>
+										<div id="image2" class="popup" onclick="myFunction()">
+											<img class="image" src="assets/images/earth.png">
+												<h2 class="text">Build a<br> network</h2>
+												<span class="popuptext" id="myPopup">
+													<p>The world is becoming a more connected place, and the answers to many<br> of our problems have probably already been solved by another person.<br> Connecting with others has become one of the most effective problem<br> solving strategies. You'll build a network throughout this course that you<br> can rely on and turn to for help and advice.</p>
+												</span>
+										</div>
+                  <div id="image3">
+										<img class="image" src="assets/images/books.png">
+											<h2 class="text">No proprietary<br> materials</h2>
+									</div>
+									<div id="image4">
+										<img class="image" src="assets/images/file-text2.png">
+										<h2 class="text">Tuition</h2>
+									</div>
+									<div id="image5">
+										<img class="image" src="assets/images/library.png">
+										<h2 class="text">Corporate<br> focus</h2>
+									</div>
+									<div id="image6">
+										<img class="image" src="assets/images/pen.png">
+										<h2 class="text">No grades</h2>
+									</div>
+                <!-- </div> -->
 	            </div>
 
-	          <div id="hovers">  
-	            <div id="who">
-	            	<h2>Who it's for</h2>
-	                <p id="one">We've kept the working professional in mind, and have designed this<br> course to be within reach of those that already have a busy schedule. That<br> said, this course is no walk-in-the-park, and a serious time commitment is<br> expected. But if you're looking to build practical skills in the world of<br> education, then look no further than ABLE/ISD.</p>
-	             </div>
 
-	            <div id="network">
+	            	<!-- <h2>Who it's for</h2>
+	                <p>We've kept the working professional in mind, and have designed this<br> course to be within reach of those that already have a busy schedule. That<br> said, this course is no walk-in-the-park, and a serious time commitment is<br> expected. But if you're looking to build practical skills in the world of<br> education, then look no further than ABLE/ISD.</p>
+	             </div> -->
+
+	            <!-- <div id="network">
 	              <h2>Build a<br> network</h2>
 	                <p id="two">The world is becoming a more connected place, and the answers to many<br> of our problems have probably already been solved by another person.<br> Connecting with others has become one of the most effective problem<br> solving strategies. You'll build a network throughout this course that you<br> can rely on and turn to for help and advice.</p>
 	            </div>
 
-	            <div id="free"> 
-	            	<h2>No proprietary<br> materials</h2>   
+	            <div id="free">
+	            	<h2>No proprietary<br> materials</h2>
 	                <p id="three">Knowledge is free these days. From articles, to books, to MOOCs,<br> education can be obtained for the price of an internet connection.<br> ABLE/ISD is about building the right skills and using the information<br> that is already available. We don't have lectures, handouts, or secrets. We<br> understand that the best education is a practical one, and that's exactly<br> what we've set out to do.</p>
 	            </div>
 
@@ -77,8 +102,8 @@
 	                <p id="four">Tuition for the course is $2,500 dollars and is non-refundable. Four<br> reference books are included.<br> One of the keys of ABLE/ISD is vested interest. We want you to take this<br> course seriously, for yourself and for the people you will be working with.</p>
 	            </div>
 
-	            <div id="focus"> 
-	           		<h2>Corporate<br> focus</h2>   
+	            <div id="focus">
+	           		<h2>Corporate<br> focus</h2>
 	                <p id="five">While designing ABLE/ISD, we asked ourselves how to make this the<br> most valuable course available. We think that the most important<br> objective of education should be employability. For this reason, we've<br> decided to focus on corporate training, but the information can be<br> applied to all aspects of learning.</p>
 	            </div>
 
@@ -87,8 +112,8 @@
 	                <p id="six">Good news: you won't be expected to pass a test or memorize theory. Our<br> jobs are not a closed-book test; you are always free to look up what you<br> don't know. We encourage you to experiment to find solutions that work<br> for you, and there are no wrong answers.</p>
 	            </div>
 	          </div>
-	        </div>
-			
+	        </div> -->
+
 
 					<div id="details">
 						<h1>Details</h1>
@@ -99,15 +124,15 @@
 						<h2>Learn Industry Tools</h2>
 
 						<p>Students are asked to<br> build first and learn<br> along the way. In the<br> workplace, we often<br> don’t know what our<br> obstacles are until<br> we encounter them.<br> We’ll prepare you for<br> many of the hurdles<br> beforehand, but we<br> expect you to find<br> creative solutions to<br> problems that are<br> unique to you.</p>
-						<p>At ABLE/ISD, we<br> work together. Your<br> teammates will be<br> your greatest asset<br> throughout the<br> course. As a group,<br> you’ll brainstorm and<br> discuss problems,<br> share your knowledge,<br> and contribute your<br> own experiences and<br> perspective.</p>					
+						<p>At ABLE/ISD, we<br> work together. Your<br> teammates will be<br> your greatest asset<br> throughout the<br> course. As a group,<br> you’ll brainstorm and<br> discuss problems,<br> share your knowledge,<br> and contribute your<br> own experiences and<br> perspective.</p>
 						<p>- Authoring tools<br> to help craft your<br> content</p>
 						<p>- Video software<br> and their capabilities</p>
-						<p>- LMS platforms<br> to host and deliver<br> materials</p> 
+						<p>- LMS platforms<br> to host and deliver<br> materials</p>
 						<p>- Audio editing<br> and the importance of<br> clarity</p>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 
