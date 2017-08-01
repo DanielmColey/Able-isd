@@ -383,16 +383,21 @@ nav {
 .popup .popuptext {
     visibility: hidden;
     width: 400px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
     z-index: 3;
     bottom:50%;
-    left: 50%;
+    left: 25%;
+		top:auto;
+		right:auto;
     margin-left: -80px;
+}
+.popup .popuptext h2{
+	text-align: center;
 }
 
 /* Popup arrow */
@@ -517,10 +522,10 @@ visibility:visible;
 }
 
 
-/*.image {
-	max-height:200px;
+.image {
+	max-height:150px;
 
-}*/
+}
 #hovers {
 	position: absolute;
 }

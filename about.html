@@ -10,9 +10,30 @@
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Spectral" rel="stylesheet"/>
 		<script>
 // When the user clicks on <div>, open the popup
-function myFunction() {
+function popup1() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
+}
+// When the user clicks on <div>, open the popup
+function popup2() {
+var popup = document.getElementById("myPopup2");
+popup.classList.toggle("show");
+}
+function popup3() {
+var popup = document.getElementById("myPopup3");
+popup.classList.toggle("show");
+}
+function popup4() {
+var popup = document.getElementById("myPopup4");
+popup.classList.toggle("show");
+}
+function popup5() {
+var popup = document.getElementById("myPopup5");
+popup.classList.toggle("show");
+}
+function popup6() {
+var popup = document.getElementById("myPopup6");
+popup.classList.toggle("show");
 }
 </script>
 
@@ -49,35 +70,53 @@ function myFunction() {
 						<p>No proprietary materials, no grades, and no lectures, our strategy is simple. We<br> provide you with the resources you need to complete a project. Sometimes you will<br> work with a group, and sometimes on your own. Your instructor, mentors, and fellow<br> students will be there to help, motivate, and give feedback. Together, you’ll create<br> something you would make in a corporate environment.</p>
 				</div>
 						<div id=pop-up>
-									<div id="image1" class="popup" onclick="myFunction()">
-										<img id="image" src="assets/images/briefcase.png" href="#who">
+									<div id="image1" class="popup" onclick="popup1()">
+										<img class="image" src="assets/images/briefcase.png" href="#who">
 										<h2 class="text">Who it's for</h2>
 										<span class="popuptext" id="myPopup">
-											<p>We've kept the working professional in mind, and have designed this<br> course to be within reach of those that already have a busy schedule. That<br> said, this course is no walk-in-the-park, and a serious time commitment is<br> expected. But if you're looking to build practical skills in the world of<br> education, then look no further than ABLE/ISD.</p>
+											<h2>Who it's for</h2>
+											<p>We've kept the working professional in mind, and have designed this course to be within reach of those that already have a busy schedule.<br/> That said, this course is no walk-in-the-park, and a serious time commitment is expected. But if you're looking to build practical skills in the world of education, then look no further than ABLE/ISD.</p>
 										</span>
 									</div>
-										<div id="image2" class="popup" onclick="myFunction()">
+										<div id="image2" class="popup" onclick="popup2()">
 											<img class="image" src="assets/images/earth.png">
 												<h2 class="text">Build a<br> network</h2>
-												<span class="popuptext" id="myPopup">
-													<p>The world is becoming a more connected place, and the answers to many<br> of our problems have probably already been solved by another person.<br> Connecting with others has become one of the most effective problem<br> solving strategies. You'll build a network throughout this course that you<br> can rely on and turn to for help and advice.</p>
+												<span class="popuptext" id="myPopup2">
+													<h2>Build a Network</h2>
+													<p>The world is becoming a more connected place, and the answers to many of our problems have probably already been solved by another person.<br /> Connecting with others has become one of the most effective problem solving strategies. You'll build a network throughout this course that you can rely on and turn to for help and advice.</p>
 												</span>
 										</div>
-                  <div id="image3">
+                  <div id="image3" class="popup" onclick="popup3()">
 										<img class="image" src="assets/images/books.png">
 											<h2 class="text">No proprietary<br> materials</h2>
+											<span class="popuptext" id="myPopup3">
+												<h2>No propietary materials</h2>
+												<p>Knowledge is free these days. From articles, to books, to MOOCs, education can be obtained for the price of an internet connection.<br /> ABLE/ISD is about building the right skills and using the information that is already available. We don't have lectures, handouts, or secrets. We understand that the best education is a practical one, and that's exactly what we've set out to do.</p>
+											</span>
 									</div>
-									<div id="image4">
+									<div id="image4" class="popup" onclick="popup4()">
 										<img class="image" src="assets/images/file-text2.png">
 										<h2 class="text">Tuition</h2>
+										<span class="popuptext" id="myPopup4">
+											<h2>Tuition</h2>
+											<p>Tuition for the course is $2,500 dollars and is non-refundable. Four reference books are included.<br /> One of the keys of ABLE/ISD is vested interest. We want you to take this course seriously, for yourself and for the people you will be working with.</p>
+										</span>
 									</div>
-									<div id="image5">
+									<div id="image5" class="popup" onclick="popup5()">
 										<img class="image" src="assets/images/library.png">
 										<h2 class="text">Corporate<br> focus</h2>
+										<span class="popuptext" id="myPopup5">
+											<h2>Corporate focus</h2>
+											<p>While designing ABLE/ISD, we asked ourselves how to make this the most valuable course available. We think that the most important objective of education should be employability.<br /> For this reason, we've decided to focus on corporate training, but the information can be applied to all aspects of learning.</p>
+										</span>
 									</div>
-									<div id="image6">
+									<div id="image6" class="popup" onclick="popup6()">
 										<img class="image" src="assets/images/pen.png">
 										<h2 class="text">No grades</h2>
+										<span class="popuptext" id="myPopup6">
+											<h2>No grades</h2>
+											<p>Good news: you won't be expected to pass a test or memorize theory. Our jobs are not a closed-book test; you are always free to look up what you don't know.<br /> We encourage you to experiment to find solutions that work for you, and there are no wrong answers.</p>
+										</span>
 									</div>
                 <!-- </div> -->
 	            </div>
