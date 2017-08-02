@@ -970,7 +970,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk1_tiny.jpg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
