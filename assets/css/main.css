@@ -1156,6 +1156,7 @@ nav {
 }
 
 #bottom-gray {
+	position: relative;
 	display: inline-block;
 	background-color: #626363;
 	/*opacity: .9;*/
@@ -1208,12 +1209,12 @@ nav {
 	position: relative;
 	background-color: #fff;
 	width: 100%;
-	height: 60vw;
+	height: 70vw;
 	color: #000;
 }
 
 #about h1 {
-	font-size: 3.5vw;
+	font-size: 4vw;
 	text-align: center;
 	font-family: "Spectral", serif;
 	color: #ed1c24;
@@ -1221,38 +1222,39 @@ nav {
 }
 
 #about h2 {
-	font-size: 2vw;
+	font-size: 3vw;
 	font-family: "Spectral", serif;
 	display: inline-block;
-	padding: 0 9% 0 9%;
+	padding: 0 7% 0 9%;
 }
 
 #about p {
 	display: inline-block;
-	font-size: 1.6vw;
+	font-size: 2.2%;
 	font-family: "Raleway", sans-serif;
 	text-align: left;
 	float: left;
-	padding: 0 0 0 19%;
+	padding: 0 0 0 15%;
 }
 
 #approach {
 	background-color: #d12229;
-	opacity: .8;
-	position: absolute;
+	/*opacity: .8;*/
+	position: relative;
 	width: 100%;
-	height: 25vw;
+	height: 30vw;
 	color: #fff;
 	padding-top: 2%;
+	margin-bottom: -27vw;
 }
 
 #approach h1 {
-	font-size: 3vw;
+	font-size: 4vw;
 	font-family: "Spectral", serif;
 }
 
 #approach p {
-	font-size: 1.7vw;
+	font-size: 2.2vw;
 	font-weight: lighter;
 	font-family: "Raleway", sans-serif;
 }
@@ -1270,14 +1272,14 @@ nav {
 .popup .popuptext {
   visibility: hidden;
   width: 85%;
-  height: 70%;
+  height: 90%;
   background-color: #adb2b8;
   color: black;
   border-radius: 1vw;
   padding: 1vw 0;
   position: absolute;
   z-index: 3;
-  bottom:20%;
+  bottom: 3%;
   left: 25%;
 	top:auto;
 	right:auto;
@@ -1286,18 +1288,18 @@ nav {
 
 .popup h2 {
 	font-family: "Spectral", serif;
-	font-size: 1.7vw;
+	font-size: 2.2vw;
 }
 
 .popup p {
 	font-family: "Raleway", sans-serif;
-	font-size: 1vw;
+	font-size: 1.4vw;
 }
 
 .popup .popuptext h2{
 	text-align: center;
 	font-family: "Spectral" serif;
-	font-size: 1.7vw;
+	font-size: 2vw;
 }
 
 /* Popup arrow */
@@ -1431,33 +1433,33 @@ nav {
 #details {
 	background-color: #fff;
 	width: 100%;
-	height: 50vw;
+	height: 65vw;
 	margin-top: -5%;
 }
 
 #details h1 {
 	color: #ed1c24;
 	align-content: center;
-	font-size: 3.5vw;
+	font-size: 4vw;
 	font-family: "Spectral", serif;
-	padding-top: 2%;
+	padding-top: 5%;
 	margin-top: 5%;
 }
 
 #details h2 {
 	display: inline-block;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	font-family: "Spectral", serif;
-	padding: 0 7% 0 10%;
+	padding: 0 5% 0 8%;
 }
 
 #details p {
 	display: inline-block;
-	font-size: 1.6vw;
+	font-size: 2vw;
 	font-family: "Raleway", sans-serif;
 	text-align: left;
 	float: left;
-	padding: 0 8% 0 8%;
+	padding: 0 6% 0 6%;
 }
 
 /*contact page*/
@@ -1829,7 +1831,7 @@ input[type=button], input[type=submit], input[type=reset] {
 	width: 100%;
 	background-color: #000;
 	height: 10vw;
-	position: absolute;
+	position: relative;
 	z-index: 5;
 }
 
