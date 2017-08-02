@@ -922,7 +922,7 @@ input[type=button], input[type=submit], input[type=reset] {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 320px) {
 
 html {
 	margin:0;
@@ -966,11 +966,11 @@ nav {
 }
 
 /*background image-homepage*/
-#home-page {
+/*#home-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk1.jpeg");
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -978,13 +978,13 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}
+}*/
 
 #about-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desks.jpeg");
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -998,7 +998,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk3.jpg");
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -1012,7 +1012,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk5.jpeg");
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -1027,7 +1027,7 @@ nav {
 	padding: 0;
 	width: 100%;
 	background-image: url("../images/desk4.jpeg");
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
