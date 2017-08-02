@@ -966,7 +966,7 @@ nav {
 }
 
 /*background image-homepage*/
-/*#home-page {
+#home-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk1.jpeg");
@@ -978,9 +978,9 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}*/
+}
 
-/*#about-page {
+#about-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desks.jpeg");
@@ -992,9 +992,9 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}*/
+}
 
-/*#contact-page {
+#contact-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk3.jpg");
@@ -1006,9 +1006,9 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}*/
+}
 
-/*#form-page {
+#form-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk5.jpeg");
@@ -1020,9 +1020,9 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}*/
+}
 
-/*#faq-page {
+#faq-page {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -1035,7 +1035,7 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}*/
+}
 
 /*content*/
 .content {
