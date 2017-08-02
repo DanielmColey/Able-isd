@@ -1187,6 +1187,7 @@ nav {
 	display: inline-block;
 	margin-top: 5%;
 	padding-left: 6%;
+	padding-bottom: 2%;
 	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -1823,7 +1824,7 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .footer-bar {
 	padding: 2% 0 2% 0;
-	margin-top: -5%;
+	margin-top: -10%;
 	width: 100%;
 	background-color: #000;
 	height: 10vw;
