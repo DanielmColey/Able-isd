@@ -966,7 +966,7 @@ nav {
 }
 
 /*background image-homepage*/
-#home-page {
+/*#home-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk1.jpeg");
@@ -978,7 +978,7 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}
+}*/
 
 #about-page {
 	margin: 0;
