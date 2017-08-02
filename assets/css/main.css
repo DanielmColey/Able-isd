@@ -1039,6 +1039,7 @@ nav {
 
 /*content*/
 .content {
+	display: inline-block;
 	right: 0;
 	left: 0;
 	width: 100%;
