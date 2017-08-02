@@ -1115,10 +1115,10 @@ nav {
 }
 
 #header h1 {
-	font-size: 2.2vw;
+	font-size: 2.5vw;
 	font-family: "Spectral", serif;
 	display: inline-block;
-	padding: 1% 6% 0 6%;
+	padding: 1% 5% 0 5%;
 }
 
 #text p {
@@ -1162,7 +1162,7 @@ nav {
 	width: 100%;
 	height: 44vw;
 	margin-top: 122vw;
-	margin-bottom: -30%;
+	margin-bottom: -50%;
 	padding-top: 5%;
 	align-content: center;
 }
