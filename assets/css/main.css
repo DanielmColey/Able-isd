@@ -1829,6 +1829,7 @@ input[type=button], input[type=submit], input[type=reset] {
 	background-color: #000;
 	height: 10vw;
 	position: absolute;
+	z-index: 5;
 }
 
 .footer-bar a {
