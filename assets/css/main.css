@@ -44,7 +44,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk1.jpeg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -58,7 +58,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desks.jpeg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -72,7 +72,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk3.jpg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -86,7 +86,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk5.jpeg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
@@ -101,7 +101,7 @@ nav {
 	padding: 0;
 	width: 100%;
 	background-image: url("../images/desk4.jpeg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
 	background-attachment: fixed;
