@@ -343,7 +343,6 @@ nav {
   height: 70%;
   background-color: #adb2b8;
   color: black;
-  text-align: lef
   border-radius: 1vw;
   padding: 1vw 0;
   position: absolute;
@@ -412,14 +411,14 @@ nav {
 	position: relative;
 	bottom: 10%;
 	left: 0;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	margin-top: 8%;
 	max-height: 20%;
 }
 
-#image1:hover .text {
+/*#image1:hover .text {
 	visibility:visible;
-	-webkit-animation: fadeIn 1s;
+	-webkit-animation: fadeIn 1s;*/
 }
 
 
@@ -427,70 +426,70 @@ nav {
 	position:relative;
 	bottom: 10%;
 	left: 0;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	margin-top: 8%;
 	max-height: 5%;
 }
 
-#image2:hover .text {
+/*#image2:hover .text {
 	visibility:visible;
-	-webkit-animation: fadeIn 1s;
+	-webkit-animation: fadeIn 1s;*/
 }
 
 #image3 .text {
 	position:relative;
 	bottom: 10%;
 	left: 0;
-	visibility:hidden;
+	/*visibility:hidden;*/
 	margin-top: 8%;
 	max-height: 5%;
 }
 
-#image3:hover .text {
+/*#image3:hover .text {
 	visibility:visible;
-	-webkit-animation: fadeIn 1s;
+	-webkit-animation: fadeIn 1s;*/
 }
 
 #image4 .text {
 	position:relative;
 	bottom: 10%;
 	left: 0;
-	visibility:hidden;
+	/*visibility:hidden;*/
 	margin-top: 8%;
 	max-height: 5%;
 }
 
-#image4:hover .text {
+/*#image4:hover .text {
 	visibility:visible;
-	-webkit-animation: fadeIn 1s;
+	-webkit-animation: fadeIn 1s;*/
 }
 
 #image5 .text {
 	position:relative;
 	bottom: 10%;
 	left: 0;
-	visibility:hidden;
+	/*visibility:hidden;*/
 	margin-top: 8%;
 	max-height: 5%;
 }
 
-#image5:hover .text {
+/*#image5:hover .text {
 	visibility:visible;
-	-webkit-animation: fadeIn 1s;
+	-webkit-animation: fadeIn 1s;*/
 }
 
 #image6 .text {
 	position:relative;
 	bottom: 10%;
 	left: 0;
-	visibility:hidden;
+	/*visibility:hidden;*/
 	margin-top: 8%;
 	max-height: 5%;
 }
 
 #image6:hover .text {
 	visibility:visible;
-	-webkit-animation: fadeIn 1s;
+	/*-webkit-animation: fadeIn 1s;*/
 }
 
 
@@ -742,6 +741,8 @@ nav {
 	background-color: #fff;
 	text-align: left;
 	padding-left: 5%;
+	padding-right: 5.5%;
+	padding-bottom: 2%
 }
 
 .collapsible-body p {
