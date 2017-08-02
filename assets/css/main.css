@@ -1139,13 +1139,12 @@ nav {
 	position: absolute;
 	width: 100%;
 	height: 35vw;
-	padding-top: 5%;
-	padding-bottom: 5%;
 	margin-top: 87%;
 	color: #000;
 }
 
 #aim h1 {
+	padding-top: 5%;
 	font-size: 4vw;
 	font-family: "Spectral", serif;
 }
@@ -1154,6 +1153,7 @@ nav {
 	font-size: 1.6vw;
 	font-weight: lighter;
 	font-family: "Raleway", sans-serif;
+	padding-bottom: 5%;
 }
 
 #bottom-gray {
