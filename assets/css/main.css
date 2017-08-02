@@ -1471,7 +1471,7 @@ nav {
 	display: inline-block;
 	margin-top: 11%;
 	background-color: #626363;
-	opacity: .9;
+	/*opacity: .9;*/
 	color: #fff;
 	width: 100%;
 	height: 45vw;
@@ -1479,7 +1479,7 @@ nav {
 
 #contact strong {
 	font-family: "Spectral", serif;
-	font-size: 3.5vw;
+	font-size: 4vw;
 }
 
 #contact #one {
@@ -1487,7 +1487,7 @@ nav {
 	width: 45%;
 	padding-top: 10%;
 	font-family: "Raleway", sans-serif;
-	font-size: 3vw;
+	font-size: 3.5vw;
 }
 
 #one span {
@@ -1498,8 +1498,8 @@ nav {
 	float: right;
 	text-align: left;
 	font-family: "Raleway", sans-serif;
-	font-size: 3vw;
-	padding: 23% 15% 0 0;
+	font-size: 3.5vw;
+	padding: 24% 13% 0 0;
 }
 
 #contact a {
@@ -1514,13 +1514,13 @@ nav {
 	background-color: #d12229;
 	width: 100%;
 	height: 16vw;
-	margin-top: -.5%;
+	margin-top: -1%;
 }
 
 #meet p {
 	color: #fff;
 	font-family: "Spectral", serif;
-	font-size: 4vw;
+	font-size: 4.5vw;
 	letter-spacing: 2vw;
 	padding-top: 1%;
 }
@@ -1535,7 +1535,7 @@ nav {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
-	font-size: 3vw;
+	font-size: 3.5vw;
 	padding: 2% 0 0 8%;
 }
 
@@ -1543,7 +1543,7 @@ nav {
 	display: inline-block;
 	text-align: left;
 	float: left;
-	font-size: 1.7vw;
+	font-size: 2vw;
 	font-family: "Raleway", sans-serif;
 	padding: 12% 0 0 0;
 }
@@ -1569,14 +1569,14 @@ nav {
 #dean h1 {
 	display: inline-block;
 	font-family: "Spectral", serif;
-	font-size: 3vw;
-	padding: 7% 30% 0 0;
+	font-size: 3.5vw;
+	padding: 7% 38% 0 0;
 }
 
 #dean p {
 	text-align: left;
 	float: right;
-	font-size: 1.7vw;
+	font-size: 2vw;
 	font-family: "Raleway", sans-serif;
 	padding: 0 13% 0 0;
 }
@@ -1597,7 +1597,7 @@ nav {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
-	font-size: 3vw;
+	font-size: 3.5vw;
 	padding: 4% 0 0 8%;
 }
 
@@ -1605,7 +1605,7 @@ nav {
 	display: inline-block;
 	text-align: left;
 	float: left;
-	font-size: 1.7vw;
+	font-size: 2vw;
 	font-family: "Raleway", sans-serif;
 	padding: 12% 0 0 0;
 }
