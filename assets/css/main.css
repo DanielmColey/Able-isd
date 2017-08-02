@@ -1252,7 +1252,7 @@ nav {
 #approach h1 {
 	font-size: 4vw;
 	font-family: "Spectral", serif;
-	align-content: center;
+	padding-right: 8%;
 }
 
 #approach p {
@@ -1436,14 +1436,14 @@ nav {
 #details {
 	background-color: #fff;
 	width: 100%;
-	height: 70vw;
-	margin-top: -5%;
+	height: 75vw;
+	/*margin-top: -5%;*/
 }
 
 #details h1 {
 	color: #ed1c24;
 	align-content: center;
-	font-size: 4vw;
+	font-size: 3.8vw;
 	font-family: "Spectral", serif;
 	padding-top: 5%;
 	margin-top: 5%;
