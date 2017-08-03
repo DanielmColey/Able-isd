@@ -594,12 +594,11 @@ nav {
 	height: 43vw;
 }
 
-#kristy h1 {
+#kristy strong {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
 	font-size: 3vw;
-	padding: 2% 0 0 8%;
 }
 
 #kristy p {
@@ -608,7 +607,7 @@ nav {
 	float: left;
 	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	padding: 12% 0 0 0;
+	padding: 8% 0 0 10%;
 }
 
 #kristy a {
@@ -629,11 +628,10 @@ nav {
 	margin-top: 0;
 }
 
-#dean h1 {
+#dean strong {
 	display: inline-block;
 	font-family: "Spectral", serif;
 	font-size: 3vw;
-	padding: 7% 30% 0 0;
 }
 
 #dean p {
@@ -641,7 +639,7 @@ nav {
 	float: right;
 	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	padding: 0 13% 0 0;
+	padding: 5% 13% 0 0;
 }
 
 #dean img {
@@ -656,12 +654,12 @@ nav {
 	height: 43vw;
 }
 
-#caden h1 {
+#caden strong {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
 	font-size: 3vw;
-	padding: 4% 0 0 8%;
+	/*padding: 4% 0 0 8%;*/
 }
 
 #caden p {
@@ -670,7 +668,7 @@ nav {
 	float: left;
 	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	padding: 12% 0 0 0;
+	padding: 8% 0 0 10%;
 }
 
 #caden img {
@@ -1467,7 +1465,7 @@ nav {
 
 #contact {
 	display: inline-block;
-	margin-top: 11%;
+	margin-top: 25%;
 	background-color: #626363;
 	/*opacity: .9;*/
 	color: #fff;
@@ -1482,10 +1480,10 @@ nav {
 
 #contact #one {
 	float: left;
-	width: 45%;
+	/*width: 50%;*/
 	padding-top: 10%;
 	font-family: "Raleway", sans-serif;
-	font-size: 3.5vw;
+	font-size: 3vw;
 }
 
 #one span {
@@ -1496,7 +1494,7 @@ nav {
 	float: right;
 	text-align: left;
 	font-family: "Raleway", sans-serif;
-	font-size: 3.5vw;
+	font-size: 3vw;
 	padding: 24% 13% 0 0;
 }
 
@@ -1512,7 +1510,7 @@ nav {
 	background-color: #d12229;
 	width: 100%;
 	height: 16vw;
-	margin-top: -2%;
+	margin-top: -1%;
 }
 
 #meet p {
@@ -1529,21 +1527,20 @@ nav {
 	height: 43vw;
 }
 
-#kristy h1 {
+#kristy strong {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
-	font-size: 3.5vw;
-	padding: 2% 0 0 8%;
+	font-size: 3vw;
 }
 
 #kristy p {
 	display: inline-block;
 	text-align: left;
 	float: left;
-	font-size: 2vw;
+	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	padding: 12% 0 0 0;
+	padding: 8% 0 0 10%;
 }
 
 #kristy a {
@@ -1564,19 +1561,18 @@ nav {
 	margin-top: 0;
 }
 
-#dean h1 {
+#dean strong {
 	display: inline-block;
 	font-family: "Spectral", serif;
-	font-size: 3.5vw;
-	padding: 7% 38% 0 0;
+	font-size: 3vw;
 }
 
 #dean p {
 	text-align: left;
 	float: right;
-	font-size: 2vw;
+	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	padding: 0 13% 0 0;
+	padding: 5% 13% 0 0;
 }
 
 #dean img {
@@ -1591,21 +1587,21 @@ nav {
 	height: 43vw;
 }
 
-#caden h1 {
+#caden strong {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
-	font-size: 3.5vw;
-	padding: 4% 0 0 8%;
+	font-size: 3vw;
+	/*padding: 4% 0 0 8%;*/
 }
 
 #caden p {
 	display: inline-block;
 	text-align: left;
 	float: left;
-	font-size: 2vw;
+	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	padding: 12% 0 0 0;
+	padding: 8% 0 0 10%;
 }
 
 #caden img {
