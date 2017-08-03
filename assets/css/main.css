@@ -754,6 +754,7 @@ nav {
 }
 
 .tuition_headers {
+	padding-top: 2%;
   color: red;
   font-size: 2vw;
   font-family: "Spectral", serif;
@@ -1208,16 +1209,16 @@ nav {
 #bottom-columns {
 	display: inline-block;
 	margin-top: 5%;
-	padding-left: 6%;
+	padding-left: 3%;
 	padding-bottom: 2%;
 	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  -webkit-column-gap: 6vw; /* Chrome, Safari, Opera */
-  -moz-column-gap: 6vw; /* Firefox */
-  column-gap: 6vw;
+  -webkit-column-gap: 4vw; /* Chrome, Safari, Opera */
+  -moz-column-gap: 4vw; /* Firefox */
+  column-gap: 4vw;
   text-align: left;
 }
 
@@ -1668,7 +1669,8 @@ nav {
 .collapsible h1 {
 	font-size: 3.5vw;
 	display: inline-block;
-	float: left;
+	/*float: left;*/
+	margin-right: 40%;
 	padding-left: 5%;
 	font-family: "Spectral", serif;
 }
