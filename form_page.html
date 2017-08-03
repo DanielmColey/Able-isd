@@ -22,6 +22,7 @@
 				<a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
                 <a href="FAQ.html">FAQ</a>
+                <a class="active" ref="form-page.html">Apply</a>
                 <a class="active" href="form-page.html">Apply</a>
 			</div>
 		</nav>
@@ -68,7 +69,7 @@
 
 			<div class="form">
 				<form action="send_mail.php" method="post">
-                <p>Name:</p>
+                <p id="cats">Name:</p>
                 <input class="text-2" type="text" name="Name" required>
             <div class="side-by-side">
                 <div>
@@ -80,13 +81,13 @@
                     <input class="text-1" type="text" name="Phone" required>
                 </div>
             </div>
-            <p>Session choice:</p>
+            <p id="cats">Session choice:</p>
             <select>
               <option value="blank">Select one</option>
                 <option value="choice1">September 4 - October 14</option>
               <option value="choice2">January 8 - February 23</option>
             </select>
-                <p>Tell us about you!</p>
+                <p id="cats">Tell us about you!</p>
                 <textarea></textarea>
             <div class="side-by-side">
                 <div>
@@ -108,16 +109,19 @@
                     <input class="text-1" type="text" name="Company" required>
                 </div>
             </div>
-                <p>How did you hear about us?</p>
+            <div>
+                <p id="cats">How did you hear about us?</p>
                 <input class="text-2" type="text" name="How?" required>
-                <p>What goals do you have for yourself?<br>How will ABLE/ISD help you?</p>
+                <p id="cats">What goals do you have for yourself?<br>How will ABLE/ISD help you?</p>
                 <textarea></textarea>
-                <p>What life experiences are you bringing to the table?<br>What do you have to give to your fellow students?</p>
+                <p id="cats">What life experiences are you bringing to the table?<br>What do you have to give to your fellow students?</p>
                 <textarea></textarea>
-                <p>What would you like us to know about you?</p>
+                <p id="cats">What would you like us to know about you?</p>
                 <textarea></textarea>
-                <p>Are you ready to change the way we teach online?</p>
-                <input class="text-2" type="text" name="Ready" placeholder="Yes!" required><br>
+                <p id="cats">Are you ready to change the way we teach online?</p>
+                <input class="text-2" type="text" name="Ready" placeholder="Yes!" required>
+            </div>
+                <br>
                 <input type="submit" value="Submit">
     </form>
     </div>
