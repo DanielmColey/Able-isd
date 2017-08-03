@@ -1487,7 +1487,7 @@ nav {
 
 #contact {
 	display: inline-block;
-	margin-top: 25%;
+	/*margin-top: 25%;*/
 	background-color: #626363;
 	/*opacity: .9;*/
 	color: #fff;
