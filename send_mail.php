@@ -1,67 +1,73 @@
-<?php
-/*
-This first bit sets the email address that you want the form to be submitted to.
-You will need to change this value to a valid email address that you can access.
-*/
-$webmaster_email = "spgonza@live.com";
+  <?php
+if(!isset($_POST['submit']))
+{
+    //This page should not be accessed directly. Need to submit the form.
+    echo "error; you need to submit the form!";
+}
+$Name = $_POST['Name'] ;
+$Email = $_POST['Email'] ;
+$Phone = $_POST['Phone'] ;
+$Term = $_POST['Term'] ;
+$Aboutyou = $_POST['Aboutyou'] ;
+$Linkedin = $_POST['Linkedin'] ;
+$Links = $_POST['Links'] ;
+$Job= $_POST['Job'] ;
+$Company = $_POST['Company'] ;
+$How = $_POST['How'] ;
+$Goals = $_POST['Goals'] ;
+$Exp = $_POST['Exp'] ;
+$Details = $_POST['Details'] ;
+$Ready = $_POST['Ready'] ;
 
-/*
-This bit sets the URLs of the supporting pages.
-If you change the names of any of the pages, you will need to change the values here.
-*/
-$feedback_page = "feedback_form.html";
-$error_page = "error_message.html";
-$thankyou_page = "thank_you.html";
 
-/*
-This next bit loads the form field data into variables.
-If you add a form field, you will need to add it here.
-*/
-$email_address = $_REQUEST['email_address'] ;
-$comments = $_REQUEST['comments'] ;
-
-/*
-The following function checks for email injection.
-Specifically, it checks for carriage returns - typically used by spammers to inject a CC list.
-*/
-function isInjected($str) {
-	$injections = array('(\n+)',
-	'(\r+)',
-	'(\t+)',
-	'(%0A+)',
-	'(%0D+)',
-	'(%08+)',
-	'(%09+)'
-	);
-	$inject = join('|', $injections);
-	$inject = "/$inject/i";
-	if(preg_match($inject,$str)) {
-		return true;
-	}
-	else {
-		return false;
-	}
+//Validate first
+if(empty($Name)||empty($Email))
+{
+   echo "Name and email are mandatory!";
+   exit;
 }
 
-// If the user tries to access this script directly, redirect them to the feedback form,
-if (!isset($_REQUEST['email_address'])) {
-header( "Location: $feedback_page" );
+if(IsInjected($Email))
+{
+   echo "Bad email value!";
+   exit;
 }
 
-// If the form fields are empty, redirect to the error page.
-elseif (empty($email_address) || empty($comments)) {
-header( "Location: $error_page" );
-}
+$email_from = 'apply@ableisd.com';//<== update the email address
+$email_subject = "New Form submission";
+$email_body = "You have received a new message from $Name.\n".
+   "Here is the message:\n Name: $Name \n Email: $Email \n Cell: $Phone \n Term choice: $Term \n Personal Details: $Aboutyou \n LinkedIn: $Linkedin \n Links to work: $Links \n Job Title: $Job \n Company/Organization: $Company \n How did you hear?: $How \n Relevant Experiences: $Exp \n Further Details: $Details \n Are they ready?: $Ready" .
+   
+$to = "apply@ableisd.com";//<== update the email address
+$headers = "From: $email_from \r\n";
+$headers .= "Reply-To: $Email \r\n";
+//Send the email!
+mail($to,$email_subject,$email_body,$headers);
+//done. redirect to thank-you page.
+header('Location: thank_you.html');
 
-// If email injection is detected, redirect to the error page.
-elseif ( isInjected($email_address) ) {
-header( "Location: $error_page" );
-}
 
-// If we passed all previous tests, send the email then redirect to the thank you page.
-else {
-mail( "$webmaster_email", "Feedback Form Results",
-  $comments, "From: $email_address" );
-header( "Location: $thankyou_page" );
+// Function to validate against any email injection attempts
+function IsInjected($str)
+{
+ $injections = array('(\n+)',
+             '(\r+)',
+             '(\t+)',
+             '(%0A+)',
+             '(%0D+)',
+             '(%08+)',
+             '(%09+)'
+             );
+ $inject = join('|', $injections);
+ $inject = "/$inject/i";
+ if(preg_match($inject,$str))
+   {
+   return true;
+ }
+ else
+   {
+   return false;
+ }
 }
+ 
 ?>

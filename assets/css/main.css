@@ -498,7 +498,7 @@ nav {
 #details {
 	background-color: #fff;
 	width: 100%;
-	height: 60vw;
+	height: 70vw;
 	margin-top: -5%;
 	text-align: center;
 }
@@ -515,7 +515,7 @@ nav {
 	display: inline-block;
 	font-size: 2vw;
 	font-family: "Spectral", serif;
-	padding: 0 7% 0 10%;
+	padding: 0 10% 0 10%;
 }
 
 #details p {
@@ -524,7 +524,11 @@ nav {
 	font-family: "Raleway", sans-serif;
 	text-align: left;
 	float: left;
-	padding: 0 7% 0 8%;
+	padding: 0 25% 0 30%;
+}
+
+#section div {
+	width: 60%;
 }
 
 /*contact page*/
@@ -939,7 +943,7 @@ strong {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
 
 html {
 	margin:0;
@@ -1079,7 +1083,7 @@ nav {
 	/*opacity: .8;*/
 	width: 100%;
 	color: #fff;
-	font-size: 4vw;
+	font-size: 5vw;
 	font-family: "Raleway", sans-serif;
 	width: 100%;
 	height: 40vw;
@@ -1156,7 +1160,7 @@ nav {
 	background-color: #ecedee;
 	position: absolute;
 	width: 100%;
-	height: 35vw;
+	height: 40vw;
 	margin-top: 87%;
 	color: #000;
 }
@@ -1468,18 +1472,23 @@ nav {
 
 #details h2 {
 	display: inline-block;
-	font-size: 2.2vw;
+	font-size: 4vw;
 	font-family: "Spectral", serif;
 	padding: 0 3% 0 3%;
+	text-align: center;
 }
 
 #details p {
 	display: inline-block;
-	font-size: 2vw;
+	font-size: 3vw;
 	font-family: "Raleway", sans-serif;
 	text-align: left;
 	float: left;
-	padding: 0 4% 0 8%;
+	padding: 0 25% 0 27%;
+}
+
+#section div {
+	width: 60%;
 }
 
 /*contact page*/
@@ -1628,7 +1637,7 @@ nav {
 }
 
 #caden img {
-	width: 30%;
+	width: 29%;
 	border-radius: 2vw;
 	float: right;
 	margin: 7% 8% 0 0;
@@ -1646,7 +1655,7 @@ nav {
 }
 
 #red_faq p {
-	font-size: 3.5vw;
+	font-size: 5vw;
 	font-family: "Spectral", serif;
 	color: #fff;
 	float: right;
@@ -1664,9 +1673,9 @@ nav {
 }
 
 .collapsible h1 {
-	font-size: 3.5vw;
+	font-size: 4.5vw;
 	display: inline-block;
-	float: left;
+	margin-right: 40%;
 	padding-left: 5%;
 	font-family: "Spectral", serif;
 }
@@ -1698,9 +1707,11 @@ nav {
 }
 
 .collapsible-body p {
-	font-size: 1.5vw;
+	font-size: 2.3vw;
 	font-family: "Raleway", sans-serif;
 	line-height: 2vw;
+	text-decoration: bold;
+	padding: 0px 3px;
 }
 
 .collapsible-body a {
@@ -1710,7 +1721,7 @@ nav {
 
 .tuition_headers {
   color: red;
-  font-size: 2vw;
+  font-size: 4vw;
   font-family: "Spectral", serif;
 }
 
@@ -1782,7 +1793,7 @@ nav {
 
 .form p {
 	font-family: "Raleway", sans-serif;
-	font-size: 1.3vw;
+	font-size: 4vw;
 	color: #fff;
 }
 
