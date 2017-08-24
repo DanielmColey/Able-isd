@@ -1325,14 +1325,14 @@ nav {
 .popup .popuptext {
   visibility: hidden;
   width: 85%;
-  height: 90%;
+  height: 70%;
   background-color: #adb2b8;
   color: black;
   border-radius: 1vw;
   padding: 1vw 0;
   position: absolute;
   z-index: 3;
-  bottom: 3%;
+  bottom:20%;
   left: 25%;
 	top:auto;
 	right:auto;
@@ -1341,18 +1341,18 @@ nav {
 
 .popup h2 {
 	font-family: "Spectral", serif;
-	font-size: 2.2vw;
+	font-size: 1.7vw;
 }
 
 .popup p {
 	font-family: "Raleway", sans-serif;
-	font-size: 1.4vw;
+	font-size: 1vw;
 }
 
 .popup .popuptext h2{
 	text-align: center;
 	font-family: "Spectral" serif;
-	font-size: 2vw;
+	font-size: 1.7vw;
 }
 
 /* Popup arrow */
@@ -1386,13 +1386,11 @@ nav {
 }
 #pop-up {
 	display:grid;
-	grid-template-columns: repeat(3,2fr);
+	grid-template-columns: repeat(3,1fr);
 	grid-gap: 1vw;
 	margin-top: 27vw;
 	background-color: #ecedee;
 }
-
-
 
 #image1 .text {
 	position: relative;
