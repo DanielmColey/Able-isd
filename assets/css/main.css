@@ -1486,7 +1486,8 @@ nav {
 #details {
 	display: inline-block;
 	background-color: #fff;
-	height: 150vw;
+	height: 130vw;
+	margin-bottom: 50%;
 }
 
 #details h1 {
