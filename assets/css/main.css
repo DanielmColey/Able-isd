@@ -1018,7 +1018,7 @@ nav {
 #home-page {
 	margin: 0;
 	padding: 0;
-	background-image: url("../images/desk1.jpeg");
+	background-color: grey;
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
