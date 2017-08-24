@@ -1017,7 +1017,7 @@ nav {
 #home-page {
 	margin: 0;
 	padding: 0;
-	background-color: grey;
+	background-image: none;
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
@@ -1031,7 +1031,7 @@ nav {
 #about-page {
 	margin: 0;
 	padding: 0;
-	background-color: grey;
+	background-image: none;
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
@@ -1045,7 +1045,7 @@ nav {
 #contact-page {
 	margin: 0;
 	padding: 0;
-	background-color: grey;
+	background-image: none;
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
@@ -1059,7 +1059,7 @@ nav {
 #form-page {
 	margin: 0;
 	padding: 0;
-	background-color: grey;
+	background-image: none;
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
@@ -1074,7 +1074,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: grey;
+	background-image: none;
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: 0 8vw;
@@ -1217,6 +1217,7 @@ nav {
 	height: 50vw;
 	margin-top: 260vw;
 	padding-top: 5%;
+	align-content: center;
 }
 
 #top-left {
