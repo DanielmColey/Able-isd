@@ -1085,51 +1085,34 @@ nav {
 }
 
 /*content*/
-.content {
+/*.content {
 	position: relative;
 	display: inline-block;
 	right: 0;
 	left: 0;
 	width: 100%;
-}
+}*/
 
-.container {
+/*.container {
 	width: 100%;
 	display: inline-block;
 	text-align: center;
 	position: relative;
 	z-index: 3;
-}
+}*/
 
 /*Home page*/
 
 #moto {
-	position: relative;
-	background-color: #626363;
-	/*opacity: .8;*/
-	width: 100%;
-	color: #fff;
-	font-size: 5vw;
-	font-family: "Raleway", sans-serif;
-	width: 100%;
-	height: 40vw;
-	padding-top: 30%;
+	font-size: 5vw;	
 }
 
 #what {
-	position: absolute;
-	background-color: #fff;
-	width: 100%;
 	height: 35vw;
-	color: #000;
-	padding-top: 2%;
 }
 
 #what h1 {
-	font-weight: lighter;
 	font-size: 4vw;
-	padding-top: 2%;
-	font-family: "Spectral", serif;
 }
 
 #what h1 strong {
@@ -1138,374 +1121,153 @@ nav {
 
 #what p {
 	font-size: 2.2vw;
-	font-weight: lighter;
-	font-family: "Raleway", sans-serif;
 }
 
 #red-icon {
-	color: #fff;
-	position: absolute;
-	background-color: #d12229;
-	/*opacity: .8;*/
-	width: 100%;
 	height: 150vw;
 	padding-top: 5%;
 	margin-top: 37%;
-	vertical-align: middle;
-	float: top;
 }
 
 #red-icon img {
 	width: 9vw;
-	display: inline-block;
 	padding: 10% 11% 0 30%;
 }
 
 #red-icon h1 {
 	font-size: 3.5vw;
-	font-family: "Spectral", serif;
 }
 
 #red-icon p {
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 }
 
 #pencil {
-	text-align: left;
 	padding-left: 40%;
 }
 
 #bubbles {
-	text-align: left;
 	padding-left: 40%;
 }
 
 #rocket {
-	text-align: left;
 	padding-left: 40%;
 }
 
 #aim {
-	background-color: #ecedee;
-	position: absolute;
-	width: 100%;
 	height: 80vw;
 	margin-top: 190vw;
-	color: #000;
 }
 
 #aim h1 {
 	font-size: 4.5vw;
-	font-family: "Spectral", serif;
 }
 
 #aim p {
 	font-size: 2.5vw;
-	font-weight: lighter;
-	font-family: "Raleway", sans-serif;
 	padding: 0 8%;
 }
 
 #bottom-gray {
-	position: relative;
-	display: inline-block;
-	background-color: #626363;
-	color: #fff;
-	width: 100%;
 	height: 50vw;
 	margin-top: 260vw;
 	padding-top: 5%;
-	align-content: center;
 }
 
 #top-left {
 	padding-left: 6%;
 	font-size: 2vw;
-	font-family: "Raleway", sans-serif;
-	text-align: left;
 }
 
 #bottom-gray h1 {
-	float: right;
 	font-size: 2.7vw;
-	font-family: "Spectral", serif;
 	padding-right: 8%;
 	height: 20%;
-	text-align: left;
 }
 
 #bottom-columns {
-	display: inline-block;
 	margin-top: 5%;
-	padding-left: 3%;
-	padding-bottom: 2%;
+	padding-left: 0 0 0 3%;
 	font-size: 1.7vw;
-	font-family: "Raleway", sans-serif;
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
-  -webkit-column-gap: 4vw; /* Chrome, Safari, Opera */
-  -moz-column-gap: 4vw; /* Firefox */
-  column-gap: 4vw;
-  text-align: left;
 }
 
 
 /*about page*/
 
 #about {
-	position: relative;
-	background-color: #fff;
 	height: 115vw;
-	color: #000;
 }
 
 #about h1 {
 	font-size: 5vw;
-	text-align: center;
-	font-family: "Spectral", serif;
-	color: #ed1c24;
 	padding-top: 15%;
 }
 
 #about h2 {
 	font-size: 2.5vw;
-	font-family: "Spectral", serif;
 }
 
 #about p {
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 }
 
 #old {
-	text-align: left;
 	padding-left: 35%;
 }
 
 #ours {
-	text-align: left;
 	padding-left: 35%;
 }
 
 #approach {
-	background-color: #d12229;
 	position: relative;
-	width: 100%;
 	height: 30vw;
-	color: #fff;
 	padding-top: 2%;
 	margin-bottom: -27vw;
 }
 
 #approach h1 {
 	font-size: 4vw;
-	font-family: "Spectral", serif;
 }
 
 #approach p {
 	font-size: 2.2vw;
-	font-weight: lighter;
-	font-family: "Raleway", sans-serif;
-	align-content: center;
 }
 
 /*pop-up boxes*/
 
 /* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
 
 /* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 85%;
-  height: 70%;
-  background-color: #adb2b8;
-  color: black;
-  border-radius: 1vw;
-  padding: 1vw 0;
-  position: absolute;
-  z-index: 3;
-  bottom:20%;
-  left: 25%;
-	top:auto;
-	right:auto;
-  margin-left: -18%;
-}
 
 .popup h2 {
-	font-family: "Spectral", serif;
 	font-size: 1.7vw;
 }
 
 .popup p {
-	font-family: "Raleway", sans-serif;
 	font-size: 1vw;
 }
 
 .popup .popuptext h2{
-	text-align: center;
-	font-family: "Spectral" serif;
 	font-size: 1.7vw;
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #ecedee transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-#pop-up {
-	display:grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-gap: 1vw;
-	margin-top: 27vw;
-	background-color: #ecedee;
-}
-
-#image1 .text {
-	position: relative;
-	bottom: 10%;
-	left: 0;
-	/*visibility: hidden;*/
-	margin-top: 8%;
-	max-height: 20%;
-}
-
-/*#image1:hover .text {
-	visibility:visible;
-	-webkit-animation: fadeIn 1s;
-}*/
-
-
-#image2 .text {
-	position:relative;
-	bottom: 10%;
-	left: 0;
-	/*visibility: hidden;*/
-	margin-top: 8%;
-	max-height: 5%;
-}
-
-/*#image2:hover .text {
-	visibility:visible;
-	-webkit-animation: fadeIn 1s;
-}*/
-
-#image3 .text {
-	position:relative;
-	bottom: 10%;
-	left: 0;
-	/*visibility:hidden;*/
-	margin-top: 8%;
-	max-height: 5%;
-}
-
-/*#image3:hover .text {
-	visibility:visible;
-	-webkit-animation: fadeIn 1s;
-}*/
-
-#image4 .text {
-	position:relative;
-	bottom: 10%;
-	left: 0;
-	/*visibility:hidden;*/
-	margin-top: 8%;
-	max-height: 5%;
-}
-
-/*#image4:hover .text {
-	visibility:visible;
-	-webkit-animation: fadeIn 1s;
-}*/
-
-#image5 .text {
-	position:relative;
-	bottom: 10%;
-	left: 0;
-	/*visibility:hidden;*/
-	margin-top: 8%;
-	max-height: 5%;
-}
-
-/*#image5:hover .text {
-	visibility:visible;
-	-webkit-animation: fadeIn 1s;
-}*/
-
-#image6 .text {
-	position:relative;
-	bottom: 10%;
-	left: 0;
-	/*visibility:hidden;*/
-	margin-top: 8%;
-	max-height: 5%;
-}
-
-#image6:hover .text {
-	visibility:visible;
-	/*-webkit-animation: fadeIn 1s;*/
-}
-
-
-.image {
-	max-height: 10vw;
-	margin-top: 10%;
-}
-
 #details {
-	display: inline-block;
-	background-color: #fff;
 	height: 130vw;
 }
 
 #details h1 {
-	color: #ed1c24;
 	font-size: 5vw;
-	font-family: "Spectral", serif;
 	padding-top: 2%;
 }
 
 #details h2 {
-	display: inline-block;
 	font-size: 2.5vw;
-	font-family: "Spectral", serif;
 	width: 60%;
 }
 
 #details p {
-	display: inline-block;
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 }
 
 #format {
@@ -1534,14 +1296,11 @@ nav {
 }
 
 #contact strong {
-	font-family: "Spectral", serif;
 	font-size: 4vw;
 }
 
 #contact #one {
-	float: left;
 	padding-top: 15%;
-	font-family: "Raleway", sans-serif;
 	font-size: 3vw;
 }
 
@@ -1550,52 +1309,34 @@ nav {
 }
 
 #contact #two {
-	float: right;
-	text-align: left;
-	font-family: "Raleway", sans-serif;
 	font-size: 3vw;
 	padding: 24% 13% 0 0;
 }
 
 #contact a {
-	text-decoration: none;
-	color: #fff;
-	font-family: "Raleway", sans-serif;
 	font-size: 3vw;
 }
 
 #meet {
-	display: inline-block;
-	background-color: #d12229;
-	width: 100%;
 	height: 16vw;
 	margin-top: -1.5%;
 }
 
 #meet p {
-	color: #fff;
-	font-family: "Spectral", serif;
 	font-size: 4.5vw;
-	letter-spacing: 2vw;
 	padding-top: 1%;
 }
 
 #kristy {
-	background-color: #ecedee;
-	width: 100%;
 	height: 100vw;
 }
 
 #kristy strong {
-	float: left;
-	font-family: "Spectral", serif;
 	font-size: 3.8vw;
 }
 
 #kristy p {
-	text-align: left;
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 	padding: 5% 0 0 25%;
 }
 
@@ -1605,86 +1346,59 @@ nav {
 
 #kristy img {
 	width: 40%;
-	border-radius: 2vw;
 	margin: 5% 30% 0 0;
 }
 
 #dean {
-	background-color: #fff;
 	height: 100vw;
-	margin-top: 0;
 }
 
 #dean strong {
-	display: inline-block;
-	font-family: "Spectral", serif;
 	font-size: 3.8vw;
 }
 
 #dean p {
-	text-align: left;
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 	padding: 5% 22% 0 0;
 }
 
 #dean img {
 	width: 40%;
-	border-radius: 2vw;
 	margin: 7% 0 0 30%;
 }
 
 #caden {
-	background-color: #ecedee;
 	height: 100vw;
 }
 
 #caden strong {
-	display: inline-block;
-	float: left;
-	font-family: "Spectral", serif;
 	font-size: 3.8vw;
 }
 
 #caden p {
-	display: inline-block;
-	text-align: left;
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 	padding: 8% 0 0 25%;
 }
 
 #caden img {
 	width: 40%;
-	border-radius: 2vw;
 	margin: 7% 30% 0 0;
 }
 
 /*FAQ page*/
 
 #red_faq {
-	display: inline-block;
-	background-color: #d12229;
-	opacity: .8;
-	width: 100%;
 	height: 35vw;
 	margin-top: 11.75%;
 }
 
 #red_faq p {
 	font-size: 5vw;
-	font-family: "Spectral", serif;
-	color: #fff;
-	float: right;
 	padding: 20% 5% 0 0;
 }
 
 .collapsible {
 	min-height: 125vw;
-	background-color: #fff;
-	width: 100%;
-	display: inline-block;
-	align-content: center;
 	padding: 0;
 	margin: 0;
 	margin-top: -1%;
@@ -1693,14 +1407,8 @@ nav {
 
 .collapsible h1 {
 	font-size: 4vw;
-	display: inline-block;
 	margin-right: 40%;
 	padding-left: 5%;
-	font-family: "Spectral", serif;
-}
-
-.collapsible li {
-	list-style: none;
 }
 
 .collapsible-header {
@@ -1711,19 +1419,7 @@ nav {
 	font-size: 5vw;
 }
 
-#odd {
-	background-color: #fff;
-	width: 100%;
-}
-
-#even {
-	background-color: #ecedee;
-	width: 100%;
-}
-
 .collapsible-body {
-	background-color: #fff;
-	text-align: left;
 	padding-left: 5%;
 	padding-right: 5.5%;
 	padding-bottom: 2%
@@ -1731,41 +1427,25 @@ nav {
 
 .collapsible-body p {
 	font-size: 2.5vw;
-	font-family: "Raleway", sans-serif;
 	line-height: 4vw;
-	text-decoration: bold;
 	padding: 0px 3px;
 }
 
-.collapsible-body a {
-	text-decoration: none;
-	color: #ed1c24;
-}
-
 .tuition_headers {
-  color: red;
   font-size: 5vw;
-  font-family: "Spectral", serif;
 }
 
 .material-icons {
-   color: #ed1c24;
-   display: inline-block;
-   float: right;
    padding: 2% 15% 0 0;
 }
 
 /*Form page*/
 
 #forms-apply-info {
-	background-color: #fff;
-	width: 100%;
 	height: 100vw;
   margin-top: 12%;
   padding-top: 5%;
   font-size: 2.5vw;
-  font-family: "Raleway", sans-serif;
-  text-align: left;
 }
 
 #forms-apply-info #stuff {
@@ -1778,102 +1458,63 @@ nav {
 }
 
 #forms-apply-info div {
-	float: left;
-  display: inline-block;
   padding: 0 5% 0 7%;
   font-size: 2vw;
-  font-family: "Raleway", sans-serif;
 }
 
 #last-paragraph-form p {
-  display: inline-block;
   font-size: 2.5vw;
-  font-family: "Raleway", sans-serif;
 }
 
 #ready {
-	display: inline-block;
-	background-color: #d12229;
-	opacity: .9;
-	width: 100%;
 	height: 30vw;
 }
 
 #ready p {
 	font-size: 3.5vw;
-	font-family: "Spectral", serif;
-	color: #fff;
 	padding-top: 13%;
 }
 
 .form {
-	width: 100%;
 	height: 100%;
 	background-color: #626363;
-	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-top: 2% 0 5% 0;
 }
 
 .form p {
-	font-family: "Raleway", sans-serif;
 	font-size: 4vw;
-	color: #fff;
-	text-align: left;
 }
 
 .text-1 {
-    width: 100%;
-    padding: 8px 5px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 1.2em;
+  padding: 8px 5px;
+  font-size: 1.2em;
 }
 .text-2 {
-    width: 80%;
-    padding: 8px 5px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 1.2em;
+  width: 80%;
+  padding: 8px 5px;
+  font-size: 1.2em;
 }
 
 select {
-    width: 80%;
-    padding: 10px 5px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f1f1f1;
-    font-size: 1.2em;
-    background-color: #ecedee;
+  width: 80%;
+  padding: 10px 5px;
+  font-size: 1.2em;
 }
 
 textarea {
-    width: 80%;
-    height: 150px;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    font-size: 1.2em;
-
+  width: 80%;
+  height: 150px;
+  padding: 5px 5px;
+  font-size: 1.2em;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #d12229;
-    border: none;
-    color: white;
     padding: 16px 32px;
-    text-decoration: none;
     margin-top: 2%;
     cursor: pointer;
-    border: #d12229;
-    border-radius: 1vw;
     width: 10vw;
     height: 5vw;
     font-size: 1.5vw;
-    font-family: "Raleway", sans-serif;
     padding-right: 13%;
     padding-bottom: 5%;
     font-size: 2.5vw;
@@ -1881,7 +1522,6 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .side-by-side div {
 	width: 40%;
-  display: inline-block;
 }
 
 #cats {
@@ -1897,26 +1537,16 @@ strong {
 .footer-bar {
 	padding: 2% 0 2% 0;
 	width: 100%;
-	background-color: #000;
 	height: 10vw;
-	position: absolute;
-	z-index: 5;
 }
 
 .footer-bar a {
-	color: #fff;
 	font-size: 2.5vw;
-	font-weight: lighter;
-	font-family: "Spectral", serif;
-	text-decoration: none;
 	padding-left: 12%;
 }
 
 .footer-bar p {
-	color: #ecedee;
 	font-size: 1.8vw;
-	font-family: "Spectral", serif;
-	text-align: center;
 	margin-top: 4%;
 }
 }
