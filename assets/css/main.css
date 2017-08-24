@@ -1204,11 +1204,11 @@ nav {
 }
 
 #about h2 {
-	font-size: 2.5vw;
+	font-size: 3vw;
 }
 
 #about p {
-	font-size: 2.5vw;
+	font-size: 2.8vw;
 }
 
 #old {
@@ -1221,17 +1221,17 @@ nav {
 
 #approach {
 	position: relative;
-	height: 30vw;
+	height: 35vw;
 	padding-top: 2%;
 	margin-bottom: -27vw;
 }
 
 #approach h1 {
-	font-size: 4vw;
+	font-size: 4.5vw;
 }
 
 #approach p {
-	font-size: 2.2vw;
+	font-size: 2.4vw;
 }
 
 /*pop-up boxes*/
@@ -1262,27 +1262,30 @@ nav {
 }
 
 #details h2 {
-	font-size: 2.5vw;
+	font-size: 3.5vw;
 	width: 60%;
 }
 
 #details p {
-	font-size: 2.5vw;
+	font-size: 3vw;
 }
 
 #format {
-	width: 40%;
-	padding-left: 35%;
+	width: 80%;
+	text-align: center;
+	/*padding-left: 35%;*/
 }
 
 #teams {
-	width: 40%;
-	padding-left: 35%;
+	width: 80%;
+	text-align: center;
+	/*padding-left: 35%;*/
 }
 
 #tools {
-	width: 40%;
-	padding-left: 35%;
+	width: 80%;
+	text-align: center;
+	/*padding-left: 35%;*/
 }
 
 /*contact page*/
@@ -1369,6 +1372,7 @@ nav {
 
 #caden {
 	height: 100vw;
+	padding-bottom: 5%;
 }
 
 #caden strong {
@@ -1509,15 +1513,15 @@ textarea {
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    padding: 16px 32px;
-    margin-top: 2%;
-    cursor: pointer;
-    width: 10vw;
-    height: 5vw;
-    font-size: 1.5vw;
-    padding-right: 13%;
-    padding-bottom: 5%;
-    font-size: 2.5vw;
+  padding: 16px 32px;
+  margin-top: 2%;
+  cursor: pointer;
+  width: 10vw;
+  height: 5vw;
+  font-size: 1.5vw;
+  padding-right: 13%;
+  padding-bottom: 5%;
+  font-size: 2.5vw;
 }
 
 .side-by-side div {
