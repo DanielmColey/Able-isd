@@ -1901,6 +1901,7 @@ strong {
 /*footer*/
 
 .footer-bar {
+	display: inline-block;
 	padding: 2% 0 2% 0;
 	width: 100%;
 	background-color: #000;
