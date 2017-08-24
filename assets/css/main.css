@@ -1088,7 +1088,7 @@ nav {
 /*content*/
 .content {
 	position: relative;
-	/*display: inline-block;*/
+	display: inline-block;
 	right: 0;
 	left: 0;
 	width: 100%;
@@ -1386,7 +1386,7 @@ nav {
 }
 #pop-up {
 	display:grid;
-	grid-template-columns: repeat(2,3fr);
+	grid-template-columns: repeat(3,2fr);
 	grid-gap: 1vw;
 	margin-top: 27vw;
 	background-color: #ecedee;
