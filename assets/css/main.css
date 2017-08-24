@@ -1214,22 +1214,21 @@ nav {
 	background-color: #626363;
 	color: #fff;
 	width: 100%;
-	height: 90vw;
-	margin-top: 300vw;
-	padding-top: 8%;
+	height: 50vw;
+	margin-top: 260vw;
+	padding-top: 5%;
 }
 
 #top-left {
 	padding-left: 6%;
-	font-size: 1.8vw;
-	width: 30%;
+	font-size: 2vw;
 	font-family: "Raleway", sans-serif;
 	text-align: left;
 }
 
 #bottom-gray h1 {
 	float: right;
-	font-size: 2.8vw;
+	font-size: 2.7vw;
 	font-family: "Spectral", serif;
 	padding-right: 8%;
 	height: 20%;
@@ -1238,18 +1237,17 @@ nav {
 
 #bottom-columns {
 	display: inline-block;
-	margin-top: 8%;
+	margin-top: 5%;
 	padding-left: 3%;
 	padding-bottom: 2%;
-	font-size: 1.8vw;
-	line-height: 2.5vw;
+	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  -webkit-column-gap: 3vw; /* Chrome, Safari, Opera */
-  -moz-column-gap: 3vw; /* Firefox */
-  column-gap: 3vw;
+  -webkit-column-gap: 4vw; /* Chrome, Safari, Opera */
+  -moz-column-gap: 4vw; /* Firefox */
+  column-gap: 4vw;
   text-align: left;
 }
 
@@ -1899,10 +1897,12 @@ strong {
 /*footer*/
 
 .footer-bar {
+	display: inline-block;
 	padding: 2% 0 2% 0;
 	width: 100%;
 	background-color: #000;
 	height: 10vw;
+	position: relative;
 	z-index: 5;
 	flex-wrap: wrap;
 }
