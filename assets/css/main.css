@@ -1908,6 +1908,7 @@ strong {
 	height: 10vw;
 	position: relative;
 	z-index: 5;
+	flex-wrap: wrap;
 }
 
 .footer-bar a {
