@@ -888,13 +888,15 @@ nav {
 }
 
 select {
-    width: 80%;
+    width: 40%;
     padding: 50px 20px;
     border: none;
     border-radius: 4px;
     background-color: #f1f1f1;
-    font-size: 1.2em;
+    font-size: 1.5em;
     background-color: #ecedee;
+    float: left;
+    margin-left: 10%;
 }
 
 textarea {
@@ -920,10 +922,9 @@ input[type=button], input[type=submit], input[type=reset] {
     border: #d12229;
     border-radius: 1vw;
     width: 10vw;
-    height: 5vw;
+    height: 3vw;
     font-size: 1.2vw;
     font-family: "Raleway", sans-serif;
-    text-align: center;
 }
 
 .side-by-side div {
@@ -974,6 +975,7 @@ strong {
 html {
 	margin:0;
 	padding:0;
+	/*background-color: grey !important;*/
 }
 
 /*nav-bar*/
@@ -984,7 +986,7 @@ nav {
 	left: 0;
 	background-color: #ecedee;
 	display: inline-block;
-	padding: 2% 0 2% 0;
+	padding: 3% 0 3% 0;
 	width: 100%;
 	height: auto;
 	position: fixed;
@@ -992,7 +994,6 @@ nav {
 }
 
 .nav-bar a {
-	/*float: right;*/
 	text-decoration: none;
 	color: #000;
 	padding: 0 5% 0 0;
@@ -1150,7 +1151,7 @@ nav {
 	background-color: #d12229;
 	opacity: .8;
 	width: 100%;
-	height: 135vw;
+	height: 140vw;
 	padding-top: 5%;
 	margin-top: 32%;
 	vertical-align: middle;
@@ -1160,7 +1161,7 @@ nav {
 #red-icon img {
 	width: 9vw;
 	display: inline-block;
-	padding: 0 11% 0 30%;
+	padding: 10% 11% 0 30%;
 }
 
 #red-icon h1 {
@@ -1193,7 +1194,7 @@ nav {
 	position: absolute;
 	width: 100%;
 	height: 65vw;
-	margin-top: 170vw;
+	margin-top: 175vw;
 	color: #000;
 }
 
@@ -1216,7 +1217,7 @@ nav {
 	color: #fff;
 	width: 100%;
 	height: 44vw;
-	margin-top: 235vw;
+	margin-top: 240vw;
 	padding-bottom: -50vw;
 	padding-top: 5%;
 	align-content: center;
@@ -1774,18 +1775,18 @@ nav {
 }
 
 #forms-apply-info #stuff {
-	padding-left: 13%;
+	padding: 0 5% 0 7%;
 }
 
 #forms-apply-info h2 {
 	font-size: 2.5vw;
-	padding-left: 13%;
+	padding: 0 5% 0 7%;
 }
 
 #forms-apply-info div {
 	float: left;
   display: inline-block;
-  padding-left: 13%;
+  padding: 0 5% 0 7%;
   font-size: 2vw;
   font-family: "Raleway", sans-serif;
 }
@@ -1845,7 +1846,7 @@ nav {
 
 select {
     width: 80%;
-    padding: 50px 20px;
+    padding: 10px 5px;
     border: none;
     border-radius: 4px;
     background-color: #f1f1f1;
@@ -1879,8 +1880,9 @@ input[type=button], input[type=submit], input[type=reset] {
     height: 5vw;
     font-size: 1.5vw;
     font-family: "Raleway", sans-serif;
-    padding-right: 10%;
+    padding-right: 13%;
     padding-bottom: 5%;
+    font-size: 2.5vw;
 }
 
 .side-by-side div {
@@ -1909,16 +1911,16 @@ strong {
 
 .footer-bar a {
 	color: #fff;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	font-weight: lighter;
 	font-family: "Spectral", serif;
 	text-decoration: none;
-	padding-left: 14%;
+	padding-left: 12%;
 }
 
 .footer-bar p {
 	color: #ecedee;
-	font-size: 1.5vw;
+	font-size: 1.8vw;
 	font-family: "Spectral", serif;
 	text-align: center;
 	margin-top: 4%;
