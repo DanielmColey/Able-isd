@@ -1487,7 +1487,6 @@ nav {
 	display: inline-block;
 	background-color: #fff;
 	height: 130vw;
-	margin-bottom: 50%;
 }
 
 #details h1 {
@@ -1523,6 +1522,7 @@ nav {
 #tools {
 	width: 40%;
 	padding-left: 35%;
+	padding-bottom: 25%;
 }
 
 /*contact page*/
