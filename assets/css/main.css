@@ -178,31 +178,40 @@ nav {
 	float: top;
 }
 
-#icons img {
+#red-icon img {
 	width: 7vw;
 	display: inline-block;
-	padding: 0 11% 0 11%;
+	padding: 0 11% 0 30%;
 	align-content: center;
 }
 
-#header h1 {
+#red-icon h1 {
 	font-size: 2.2vw;
 	font-family: "Spectral", serif;
-	display: inline-block;
-	padding: 1% 6% 0 6%;
 }
 
-#text p {
+#red-icon p {
 	display: inline-block;
 	font-size: 1.7vw;
 	font-family: "Raleway", sans-serif;
-	text-align: left;
-	float: left;
-	padding: 0 6% 0 7%;
 }
 
-#text {
-	margin-left: 5%;
+#pencil {
+	float: left;
+	text-align: left;
+	padding-left: 12%;
+}
+
+#bubbles {
+	float: left;
+	text-align: left;
+	padding-left: 12%;
+}
+
+#rocket {
+	float: left;
+	text-align: left;
+	padding-left: 12%;
 }
 
 #aim {
@@ -223,6 +232,7 @@ nav {
 	font-size: 1.3vw;
 	font-weight: lighter;
 	font-family: "Raleway", sans-serif;
+	padding: 0 5%;
 }
 
 #bottom-gray {
@@ -274,7 +284,6 @@ nav {
 #about {
 	position: relative;
 	background-color: #fff;
-	width: 100%;
 	height: 60vw;
 	color: #000;
 }
@@ -284,23 +293,29 @@ nav {
 	text-align: center;
 	font-family: "Spectral", serif;
 	color: #ed1c24;
-	padding-top: 12%;
+	padding-top: 15%;
 }
 
 #about h2 {
 	font-size: 2vw;
 	font-family: "Spectral", serif;
-	display: inline-block;
-	padding: 0 10% 0 10%;
 }
 
 #about p {
-	display: inline-block;
 	font-size: 1.6vw;
 	font-family: "Raleway", sans-serif;
-	text-align: left;
+}
+
+#old {
 	float: left;
-	padding: 0 0 0 19%;
+	text-align: left;
+	padding-left: 20%;
+}
+
+#ours {
+	float: left;
+	text-align: left;
+	padding-left: 15%;
 }
 
 #approach {
@@ -496,12 +511,9 @@ nav {
 }
 
 #details {
+	display: inline-block;
 	background-color: #fff;
-	width: 100%;
-	height: 70vw;
-	margin-top: -5%;
-	padding-left: 3%;
-	/*text-align: center;*/
+	height: 50vw;
 }
 
 #details h1 {
@@ -509,29 +521,41 @@ nav {
 	font-size: 4vw;
 	font-family: "Spectral", serif;
 	padding-top: 2%;
-	margin-top: 5%;
-	padding-right: 5%;
 }
 
 #details h2 {
 	display: inline-block;
 	font-size: 2vw;
 	font-family: "Spectral", serif;
-	padding: 0 10% 0 10%;
-
 }
 
 #details p {
 	display: inline-block;
 	font-size: 1.6vw;
 	font-family: "Raleway", sans-serif;
-	text-align: left;
-	float: left;
-	padding: 0 25% 0 30%;
 }
 
-#section div {
-	width: 60%;
+#format {
+	text-align: left;
+	float: left;
+	width: 20%;
+	padding-left: 11%;
+}
+
+#teams {
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 20%;
+	padding-left: 11%;
+}
+
+#tools {
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 20%;
+	padding-left: 11%;
 }
 
 /*contact page*/
@@ -1018,7 +1042,7 @@ nav {
 	z-index: 4;
 }
 
-/*#contact-page {
+#contact-page {
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/desk3.jpg");
@@ -1030,7 +1054,7 @@ nav {
 	position: relative;
 	overflow: scroll;
 	z-index: 4;
-}*/
+}
 
 #form-page {
 	margin: 0;
@@ -1124,78 +1148,81 @@ nav {
 	color: #fff;
 	position: absolute;
 	background-color: #d12229;
-	/*opacity: .8;*/
+	opacity: .8;
 	width: 100%;
-	height: 50vw;
+	height: 135vw;
 	padding-top: 5%;
 	margin-top: 32%;
 	vertical-align: middle;
 	float: top;
 }
 
-#icons img {
-	width: 8vw;
+#red-icon img {
+	width: 9vw;
 	display: inline-block;
-	padding: 0 11% 0 11%;
-	align-content: center;
+	padding: 0 11% 0 30%;
 }
 
-#header h1 {
-	font-size: 2vw;
+#red-icon h1 {
+	font-size: 3.5vw;
 	font-family: "Spectral", serif;
-	display: inline-block;
-	padding: 1% 5% 0 5%;
 }
 
-#text p {
-	display: inline-block;
-	font-size: 2vw;
+#red-icon p {
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
-	text-align: left;
-	float: left;
-	padding: 0 6% 0 5%;
 }
 
-#text {
-	margin-left: 5%;
+#pencil {
+	text-align: left;
+	padding-left: 40%;
+}
+
+#bubbles {
+	text-align: left;
+	padding-left: 40%;
+}
+
+#rocket {
+	text-align: left;
+	padding-left: 40%;
 }
 
 #aim {
 	background-color: #ecedee;
 	position: absolute;
 	width: 100%;
-	height: 40vw;
-	margin-top: 87%;
+	height: 65vw;
+	margin-top: 170vw;
 	color: #000;
 }
 
 #aim h1 {
-	font-size: 4vw;
+	font-size: 4.5vw;
 	font-family: "Spectral", serif;
 }
 
 #aim p {
-	font-size: 1.5vw;
+	font-size: 2.5vw;
 	font-weight: lighter;
 	font-family: "Raleway", sans-serif;
+	padding: 0 8%;
 }
 
 #bottom-gray {
 	position: relative;
 	display: inline-block;
 	background-color: #626363;
-	/*opacity: .9;*/
 	color: #fff;
 	width: 100%;
 	height: 44vw;
-	margin-top: 122vw;
+	margin-top: 235vw;
 	padding-bottom: -50vw;
 	padding-top: 5%;
 	align-content: center;
 }
 
 #top-left {
-	/*float: left;*/
 	padding-left: 6%;
 	font-size: 2vw;
 	font-family: "Raleway", sans-serif;
@@ -1233,46 +1260,46 @@ nav {
 #about {
 	position: relative;
 	background-color: #fff;
-	width: 100%;
-	height: 75vw;
+	height: 115vw;
 	color: #000;
-	margin-bottom: 5%;
 }
 
 #about h1 {
-	font-size: 4vw;
+	font-size: 5vw;
 	text-align: center;
 	font-family: "Spectral", serif;
 	color: #ed1c24;
-	padding-top: 12%;
+	padding-top: 15%;
 }
 
 #about h2 {
 	font-size: 2.5vw;
 	font-family: "Spectral", serif;
-	display: inline-block;
-	padding: 0 5% 0 7%;
 }
 
 #about p {
-	display: inline-block;
-	font-size: 2.2%;
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
+}
+
+#old {
 	text-align: left;
-	float: left;
-	padding: 0 0 0 14%;
+	padding-left: 35%;
+}
+
+#ours {
+	text-align: left;
+	padding-left: 35%;
 }
 
 #approach {
 	background-color: #d12229;
-	/*opacity: .8;*/
 	position: relative;
 	width: 100%;
 	height: 30vw;
 	color: #fff;
 	padding-top: 2%;
 	margin-bottom: -27vw;
-	margin-top: -5%;
 }
 
 #approach h1 {
@@ -1361,11 +1388,13 @@ nav {
 }
 #pop-up {
 	display:grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(2,3fr);
 	grid-gap: 1vw;
 	margin-top: 27vw;
 	background-color: #ecedee;
 }
+
+
 
 #image1 .text {
 	position: relative;
@@ -1459,49 +1488,51 @@ nav {
 }
 
 #details {
+	display: inline-block;
 	background-color: #fff;
-	width: 100%;
-	height: 75vw;
-	/*margin-top: -5%;*/
+	height: 130vw;
 }
 
 #details h1 {
 	color: #ed1c24;
-	align-content: center;
-	font-size: 4vw;
+	font-size: 5vw;
 	font-family: "Spectral", serif;
-	padding-top: 5%;
-	margin-top: 5%;
+	padding-top: 2%;
 }
 
 #details h2 {
 	display: inline-block;
-	font-size: 4vw;
+	font-size: 2.5vw;
 	font-family: "Spectral", serif;
-	padding: 0 3% 0 3%;
-	text-align: center;
+	width: 60%;
 }
 
 #details p {
 	display: inline-block;
-	font-size: 3vw;
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
-	text-align: left;
-	float: left;
-	padding: 0 25% 0 27%;
 }
 
-#section div {
-	width: 60%;
+#format {
+	width: 40%;
+	padding-left: 35%;
+}
+
+#teams {
+	width: 40%;
+	padding-left: 35%;
+}
+
+#tools {
+	width: 40%;
+	padding-left: 35%;
 }
 
 /*contact page*/
 
 #contact {
 	display: inline-block;
-	/*margin-top: 25%;*/
 	background-color: #626363;
-	/*opacity: .9;*/
 	color: #fff;
 	width: 100%;
 	height: 50vw;
@@ -1514,7 +1545,6 @@ nav {
 
 #contact #one {
 	float: left;
-	/*width: 50%;*/
 	padding-top: 15%;
 	font-family: "Raleway", sans-serif;
 	font-size: 3vw;
@@ -1558,91 +1588,81 @@ nav {
 #kristy {
 	background-color: #ecedee;
 	width: 100%;
-	height: 43vw;
+	height: 100vw;
 }
 
 #kristy strong {
-	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
-	font-size: 3vw;
+	font-size: 3.8vw;
 }
 
 #kristy p {
-	display: inline-block;
 	text-align: left;
-	float: left;
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
-	padding: 8% 0 0 10%;
+	padding: 5% 0 0 25%;
 }
 
 #kristy a {
-	text-decoration: none;
 	color: #ed1c24;
 }
 
 #kristy img {
-	width: 30%;
+	width: 40%;
 	border-radius: 2vw;
-	float: right;
-	margin: 7% 8% 0 0;
+	margin: 5% 30% 0 0;
 }
 
 #dean {
 	background-color: #fff;
-	height: 43vw;
+	height: 100vw;
 	margin-top: 0;
 }
 
 #dean strong {
 	display: inline-block;
 	font-family: "Spectral", serif;
-	font-size: 3vw;
+	font-size: 3.8vw;
 }
 
 #dean p {
 	text-align: left;
-	float: right;
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
-	padding: 5% 13% 0 0;
+	padding: 5% 22% 0 0;
 }
 
 #dean img {
-	width: 30%;
+	width: 40%;
 	border-radius: 2vw;
-	float: left;
-	margin: 7% 0 0 8%;
+	margin: 7% 0 0 30%;
 }
 
 #caden {
 	background-color: #ecedee;
-	height: 43vw;
+	height: 100vw;
 }
 
 #caden strong {
 	display: inline-block;
 	float: left;
 	font-family: "Spectral", serif;
-	font-size: 3vw;
-	/*padding: 4% 0 0 8%;*/
+	font-size: 3.8vw;
 }
 
 #caden p {
 	display: inline-block;
 	text-align: left;
-	float: left;
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
-	padding: 8% 0 0 10%;
+	padding: 8% 0 0 25%;
 }
 
 #caden img {
-	width: 29%;
+	width: 40%;
 	border-radius: 2vw;
-	float: right;
-	margin: 7% 8% 0 0;
+	margin: 7% 30% 0 0;
 }
 
 /*FAQ page*/
@@ -1677,12 +1697,8 @@ nav {
 }
 
 .collapsible h1 {
-	font-size: 4.5vw;
+	font-size: 4vw;
 	display: inline-block;
-<<<<<<< HEAD
-=======
-	/*float: left;*/
->>>>>>> ab6e3c0374a4c711037c17870c38f7d145a3c694
 	margin-right: 40%;
 	padding-left: 5%;
 	font-family: "Spectral", serif;
@@ -1694,6 +1710,10 @@ nav {
 
 .collapsible-header {
 	height: 10vw;
+}
+
+.collapsible-header h1 {
+	font-size: 5vw;
 }
 
 #odd {
@@ -1715,9 +1735,9 @@ nav {
 }
 
 .collapsible-body p {
-	font-size: 2.3vw;
+	font-size: 2.5vw;
 	font-family: "Raleway", sans-serif;
-	line-height: 2vw;
+	line-height: 4vw;
 	text-decoration: bold;
 	padding: 0px 3px;
 }
@@ -1729,7 +1749,7 @@ nav {
 
 .tuition_headers {
   color: red;
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: "Spectral", serif;
 }
 
@@ -1745,10 +1765,10 @@ nav {
 #forms-apply-info {
 	background-color: #fff;
 	width: 100%;
-	height: 55vw;
+	height: 100vw;
   margin-top: 12%;
   padding-top: 5%;
-  font-size: 1.7vw;
+  font-size: 2.5vw;
   font-family: "Raleway", sans-serif;
   text-align: left;
 }
@@ -1758,7 +1778,7 @@ nav {
 }
 
 #forms-apply-info h2 {
-	font-size: 1.9vw;
+	font-size: 2.5vw;
 	padding-left: 13%;
 }
 
@@ -1766,13 +1786,13 @@ nav {
 	float: left;
   display: inline-block;
   padding-left: 13%;
-  font-size: 1.7vw;
+  font-size: 2vw;
   font-family: "Raleway", sans-serif;
 }
 
 #last-paragraph-form p {
   display: inline-block;
-  font-size: 1.7vw;
+  font-size: 2.5vw;
   font-family: "Raleway", sans-serif;
 }
 
@@ -1857,9 +1877,10 @@ input[type=button], input[type=submit], input[type=reset] {
     border-radius: 1vw;
     width: 10vw;
     height: 5vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-family: "Raleway", sans-serif;
-    text-align: center;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 .side-by-side div {
